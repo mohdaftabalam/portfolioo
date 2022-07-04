@@ -5,19 +5,15 @@ a.brand img {
     border: 5px solid #fff;
 }
 
-#profile,
-#skills,
-#work,
-#resume {
-    padding: 30px 0;
-    padding-top: 120px;
-    min-height: 500px;
+.profile,
+.skills,
+.resume {
+    padding: 50px 0;
 }
 
-#profile h2,
-#skills h2,
-#work h2,
-#resume h2 {
+.profile h2,
+.skills h2,
+.resume h2 {
     font-weight: normal;
     color: #39D084;
 }
@@ -25,24 +21,24 @@ a.brand img {
 
 /***** Profile *****/
 
-#profile h1 {
+.profile h1 {
     color: #39d084;
     font-weight: normal;
 }
 
-#profile h3 {
+.profile h3 {
     color: #fff;
     font-weight: normal;
 }
 
-#profile p {
-    color: #fff;
+.profile p {
+    color: rgb(94, 233, 221);
     font-size: 18px;
     line-height: 35px;
     margin-top: 30px;
 }
 
-#profile .container .span5 {
+.profile .container .span5 {
     padding: 40px 0;
 }
 
@@ -50,7 +46,7 @@ a.hire-me {
     display: inline-block;
     *display: inline;
     padding: 20px 60px;
-    background: #39d084;
+    background: #2dd657;
     color: #fff;
     text-transform: uppercase;
     font-size: 26px;
@@ -95,70 +91,98 @@ ul.social-icons li a:hover {
 
 /***** Skills *****/
 
-#skills .span3 {
+.skills .span3 {
     width: 235px;
     overflow: hidden;
 }
 
-#skills .span5 {
+.skills .span5 {
     text-align: left;
     padding: 47px 0;
 }
 
-#skills .ps,
-#skills .ai,
-#skills .html,
-#skills .css {
-    padding: 25px;
+.skills .ps,
+.skills .Python,
+.skills .html,
+.skills .css,
+.skills .C,
+.skills .Java,
+.skills .MySQL,
+.skills .MongoDB {
+    padding: 13px;
     width: 100px;
     height: 100px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    border-radius: 70%;
     text-align: center;
-    border: 8px solid #203748;
+    border: 4px solid #9eca31;
     float: right;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
 }
 
-#skills .ps {
+.skills .ps {
     background: #30a5dc;
 }
 
-#skills .ai {
-    background: #ee742b;
+.skills .Python {
+    background: #ae6143;
 }
 
-#skills .html {
-    background: #881253;
+.skills .html {
+    background: #421b87;
 }
 
-#skills .css {
-    background: #39d084;
+.skills .css {
+    background: #9c298f;
 }
 
-#skills .ps:hover,
-#skills .ai:hover,
-#skills .html:hover,
-#skills .css:hover {
+.skills .C {
+    background: lightsalmon;
+}
+
+.skills .Java {
+    background: #9eca31;
+}
+
+.skills .MySQL {
+    background: #11d170;
+}
+
+.skills .MongoDB {
+    background: #421b87;
+}
+
+.skills .ps:hover,
+.skills .ai:hover,
+.skills .html:hover,
+.skills .css:hover,
+.skills .C:hover,
+.skills .Java:hover,
+.skills .MySQL:hover,
+.skills .MongoDB:hover {
     border: 8px solid #fff;
 }
 
-#skills .ps h3,
-#skills .ai h3,
-#skills .html h3,
-#skills .css h3 {
+.skills .ps h3,
+.skills .Python h3,
+.skills .html h3,
+.skills .css h3,
+.skills .C h3,
+.skills .Java h3,
+.skills .MongoDB h3,
+.skills .MySQL h3 {
     color: #fff;
     font-size: 3.4em;
     font-weight: normal;
     line-height: 80px;
 }
 
-#skills .html h3,
-#skills .css h3 {
+.skills .html h3,
+.skills .css h3 {
     font-size: 2.2em;
 }
 
@@ -179,43 +203,71 @@ ul.social-icons li a:hover {
     position: absolute;
 }
 
-#skills .span5 h3 {
+.skills .span5 h3 {
     font-size: 18.5px;
     line-height: 15px;
     font-weight: normal;
     text-transform: uppercase;
 }
 
-#skills .span5 h3 span {
+.skills .span5 h3 span {
     float: right;
 }
 
 .ps2 {
     width: 90%;
-    background: #30a5dc;
+    background: greenyellow;
     -moz-animation: html5 2s ease-out;
     -webkit-animation: html5 2s ease-out;
 }
 
 .ai2 {
     width: 80%;
-    background: #04682d;
+    background: greenyellow;
     -moz-animation: css3 2s ease-out;
     -webkit-animation: css3 2s ease-out;
 }
 
 .html2 {
     width: 75%;
-    background: #e42121;
+    background: greenyellow;
     -moz-animation: jquery 2s ease-out;
     -webkit-animation: jquery 2s ease-out;
 }
 
 .css2 {
     width: 85%;
-    background: #5a1f9e;
+    background: greenyellow;
     -moz-animation: photoshop 2s ease-out;
     -webkit-animation: photoshop 2s ease-out;
+}
+
+.C {
+    width: 85%;
+    background: greenyellow;
+    -moz-animation: C 2s ease-out;
+    -webkit-animation: C 2s ease-out;
+}
+
+.Java {
+    width: 65%;
+    background: greenyellow;
+    -moz-animation: Java 2s ease-out;
+    -webkit-animation: Java 2s ease-out;
+}
+
+.MySQL {
+    width: 85%;
+    background: greenyellow;
+    -moz-animation: MySQL 2s ease-out;
+    -webkit-animation: MySQL 2s ease-out;
+}
+
+.MongoDB {
+    width: 80%;
+    background: greenyellow;
+    -moz-animation: MongoDB 2s ease-out;
+    -webkit-animation: MongoDB 2s ease-out;
 }
 
 @-moz-keyframes ps2 {
@@ -290,53 +342,58 @@ ul.social-icons li a:hover {
     }
 }
 
-
-/**** Work container *****/
-
-ul.work-images li {
-    list-style: none;
-    display: inline-block;
-    margin: 8px 10px;
-    background:
+@-webkit-keyframes C {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 85%;
+    }
 }
 
-ul.work-images li:first-child {
-    margin-left: 0;
+@-webkit-keyframes Java {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 65%;
+    }
 }
 
-ul.work-images li div {
-    background: url(../img/eye.png) 50% 50% no-repeat;
-    background-color: #f04949;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+@-webkit-keyframes MongoDB {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
 }
 
-ul.work-images li img {
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
-
-ul.work-images li img:hover {
-    opacity: 0.1;
+@-webkit-keyframes MySQL {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 85%;
+    }
 }
 
 
 /***** Resume container *****/
 
-#resume h3 {
+.resume h3 {
     margin: 60px 0;
 }
 
-#resume .btn-center {
+.resume .btn-center {
     text-align: center;
 }
 
 .footer {
-    background: #355267;
+    background: #08021b;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .footer p {
